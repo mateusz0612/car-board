@@ -23,7 +23,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = ''
 
-with open('secret_key.txt', 'r') as file:
+with open("C:/GitRepo/Karboard/car-board/carboard/carboard/secret_key.txt", "r") as file:
+    # This might need to be changed in the future
     SECRET_KEY = file.read().replace('\n', '')
     file.close()
 
